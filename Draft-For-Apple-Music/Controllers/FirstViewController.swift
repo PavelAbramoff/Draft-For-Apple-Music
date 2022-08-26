@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  Draft-For-Apple-Music
 //
 //  Created by Pavel Абрамов on 24.08.2022.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class FirstViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
+        
     }
-
-
 }
 

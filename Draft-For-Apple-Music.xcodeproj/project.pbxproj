@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		1204683628B62DAA0054993B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204683528B62DAA0054993B /* AppDelegate.swift */; };
 		1204683828B62DAA0054993B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204683728B62DAA0054993B /* SceneDelegate.swift */; };
-		1204683A28B62DAA0054993B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204683928B62DAA0054993B /* ViewController.swift */; };
-		1204683D28B62DAA0054993B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1204683B28B62DAA0054993B /* Main.storyboard */; };
+		1204683A28B62DAA0054993B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204683928B62DAA0054993B /* FirstViewController.swift */; };
 		1204684028B62DAA0054993B /* Draft_For_Apple_Music.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1204683E28B62DAA0054993B /* Draft_For_Apple_Music.xcdatamodeld */; };
 		1204684228B62DC30054993B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1204684128B62DC30054993B /* Assets.xcassets */; };
 		1204684528B62DC30054993B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1204684328B62DC30054993B /* LaunchScreen.storyboard */; };
+		1204684F28B761E10054993B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204684E28B761E10054993B /* TabBarController.swift */; };
+		1204685128B770A70054993B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204685028B770A70054993B /* ThirdViewController.swift */; };
+		1204685328B771C90054993B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204685228B771C90054993B /* SecondViewController.swift */; };
+		1230777D28B7879300A88E5D /* TabBarController-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230777C28B7879100A88E5D /* TabBarController-2.swift */; };
+		126672A128B79785002E0F36 /* SettingColorsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126672A028B79784002E0F36 /* SettingColorsTabBar.swift */; };
+		1272976928B7A9D500AEDE8C /* TabBarController-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272976828B7A9D500AEDE8C /* TabBarController-3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1204683228B62DAA0054993B /* Draft-For-Apple-Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draft-For-Apple-Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1204683528B62DAA0054993B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1204683728B62DAA0054993B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1204683928B62DAA0054993B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1204683C28B62DAA0054993B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1204683928B62DAA0054993B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1204683F28B62DAA0054993B /* Draft_For_Apple_Music.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Draft_For_Apple_Music.xcdatamodel; sourceTree = "<group>"; };
 		1204684128B62DC30054993B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1204684428B62DC30054993B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1204684628B62DC30054993B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1204684E28B761E10054993B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1204685028B770A70054993B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1204685228B771C90054993B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1230777C28B7879100A88E5D /* TabBarController-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarController-2.swift"; sourceTree = "<group>"; };
+		126672A028B79784002E0F36 /* SettingColorsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingColorsTabBar.swift; sourceTree = "<group>"; };
+		1272976828B7A9D500AEDE8C /* TabBarController-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarController-3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,61 @@
 		1204683428B62DAA0054993B /* Draft-For-Apple-Music */ = {
 			isa = PBXGroup;
 			children = (
+				126672A428B7A696002E0F36 /* TabBars */,
+				126672A328B7A64D002E0F36 /* Controllers */,
 				1204683528B62DAA0054993B /* AppDelegate.swift */,
 				1204683728B62DAA0054993B /* SceneDelegate.swift */,
-				1204683928B62DAA0054993B /* ViewController.swift */,
-				1204683B28B62DAA0054993B /* Main.storyboard */,
 				1204684128B62DC30054993B /* Assets.xcassets */,
 				1204684328B62DC30054993B /* LaunchScreen.storyboard */,
 				1204684628B62DC30054993B /* Info.plist */,
 				1204683E28B62DAA0054993B /* Draft_For_Apple_Music.xcdatamodeld */,
 			);
 			path = "Draft-For-Apple-Music";
+			sourceTree = "<group>";
+		};
+		1266729F28B79747002E0F36 /* TabBar-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1230777C28B7879100A88E5D /* TabBarController-2.swift */,
+				126672A028B79784002E0F36 /* SettingColorsTabBar.swift */,
+			);
+			path = "TabBar-2";
+			sourceTree = "<group>";
+		};
+		126672A228B7A29F002E0F36 /* TabBar-1 */ = {
+			isa = PBXGroup;
+			children = (
+				1204684E28B761E10054993B /* TabBarController.swift */,
+			);
+			path = "TabBar-1";
+			sourceTree = "<group>";
+		};
+		126672A328B7A64D002E0F36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1204683928B62DAA0054993B /* FirstViewController.swift */,
+				1204685228B771C90054993B /* SecondViewController.swift */,
+				1204685028B770A70054993B /* ThirdViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		126672A428B7A696002E0F36 /* TabBars */ = {
+			isa = PBXGroup;
+			children = (
+				1272976A28B7A9DC00AEDE8C /* TabBar-3 */,
+				1266729F28B79747002E0F36 /* TabBar-2 */,
+				126672A228B7A29F002E0F36 /* TabBar-1 */,
+			);
+			path = TabBars;
+			sourceTree = "<group>";
+		};
+		1272976A28B7A9DC00AEDE8C /* TabBar-3 */ = {
+			isa = PBXGroup;
+			children = (
+				1272976828B7A9D500AEDE8C /* TabBarController-3.swift */,
+			);
+			path = "TabBar-3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +185,6 @@
 			files = (
 				1204684528B62DC30054993B /* LaunchScreen.storyboard in Resources */,
 				1204684228B62DC30054993B /* Assets.xcassets in Resources */,
-				1204683D28B62DAA0054993B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1204683A28B62DAA0054993B /* ViewController.swift in Sources */,
+				1204685128B770A70054993B /* ThirdViewController.swift in Sources */,
+				1204683A28B62DAA0054993B /* FirstViewController.swift in Sources */,
+				1230777D28B7879300A88E5D /* TabBarController-2.swift in Sources */,
 				1204683628B62DAA0054993B /* AppDelegate.swift in Sources */,
+				1204685328B771C90054993B /* SecondViewController.swift in Sources */,
 				1204684028B62DAA0054993B /* Draft_For_Apple_Music.xcdatamodeld in Sources */,
+				126672A128B79785002E0F36 /* SettingColorsTabBar.swift in Sources */,
+				1204684F28B761E10054993B /* TabBarController.swift in Sources */,
 				1204683828B62DAA0054993B /* SceneDelegate.swift in Sources */,
+				1272976928B7A9D500AEDE8C /* TabBarController-3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1204683B28B62DAA0054993B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1204683C28B62DAA0054993B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1204684328B62DC30054993B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,7 +347,6 @@
 				INFOPLIST_FILE = "Draft-For-Apple-Music/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +373,6 @@
 				INFOPLIST_FILE = "Draft-For-Apple-Music/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
